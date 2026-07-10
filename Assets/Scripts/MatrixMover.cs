@@ -120,13 +120,13 @@ public class MatrixMover : MonoBehaviour
 
         Vector3[] vertices = new Vector3[8]
         {
-            // Bottom face vertices
+           
             new Vector3(0, 0, 0), 
             new Vector3(width, 0, 0), 
             new Vector3(width, 0, depth),
             new Vector3(0, 0, depth), 
 
-            // Top face vertices
+        
             new Vector3(0, height, 0),       
             new Vector3(width, height, 0),    
             new Vector3(width, height, depth),
